@@ -64,7 +64,8 @@
     width: 120px;
   }
   .wrapper .intro-container .header .try-btn {
-    padding: 15px 50px;
+    padding: 10px 30px;
+    font-size: 1.4rem;
   }
   .wrapper .hero .hero-info .hero-title {
     font-size: 2.7rem;
@@ -91,7 +92,7 @@
     margin-bottom: 20px !important;
   }
   .container-build .build-card .btn .build-btn {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 10px 20px;
     margin-bottom: 10px;
   }
