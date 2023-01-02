@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+  .wrapper {
+    background-image: url(../images/bg-hero-mobile.svg);
+  }
+  .wrapper .hero {
+    grid-template-columns: 1fr ;
+    grid-template-areas: "hero-info"
+                         "hero-img";
+  }
+  .hero .hero-info {
+    text-align: center;
+    grid-area: hero-info;
+    margin-bottom: 30px;
+  }
+  .hero .hero-img {
+    grid-area: hero-img;
+  }
+  .hero .hero-info .started-btn {
+    align-self: center;
+  }
+  .info-cards .card  {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .container-build{
+    padding: 20px !important;
+  }
+  .container-build .build-card .build-title{
+    font-size: 2.8rem !important;
+  }
+  .container-build .build-card .btn .build-btn{
+    font-size: 1.8rem;
+    padding: 20px 50px;
+  }
+  .footer .footer-container {
+    flex-direction: column;
+  }
+  .footer .footer-01 ul li:nth-child(-n+3) {
+    margin-bottom: 0px;
+  }
+  .footer .footer-container .footer-01{
+    margin-bottom: 30px;
+  }
+  .footer .footer-container .footer-02 {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    margin-bottom: 30px;
+  }
+  .footer .footer-02 li:nth-child(-n+2){
+    margin-bottom: 10px;
+  }
+  .footer .footer-03 {
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    margin-bottom: 60px !important;
+  }
+  .wrapper .intro-container .header .header-logo {
+    width: 120px;
+  }
+  .wrapper .intro-container .header .try-btn {
+    padding: 15px 50px;
+  }
+  .wrapper .hero .hero-info .hero-title {
+    font-size: 2.7rem;
+    padding: 0px 10px;
+  }
+  .info-cards .card {
+    padding: 40px 40px !important;
+  }
+  .info-cards .card .card-info .card-title {
+    font-size: 2rem;
+  }
+  .info-cards .card .card-info .card-paragraph {
+    font-size: 1.6rem;
+  }
+  .container-build {
+    padding: 15px !important;
+    margin-bottom: -90px !important;
+  }
+  .container-build .build-card {
+    padding: 60px 15px !important;
+  }
+  .container-build .build-card .build-title{
+    font-size: 1.8rem !important;
+    margin-bottom: 20px !important;
+  }
+  .container-build .build-card .btn .build-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}
